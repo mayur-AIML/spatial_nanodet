@@ -8,7 +8,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
 ## ✨ Features
 - 🕵️‍♂️ **Real-time pedestrian detection** using **ShuffleNet_V2** and a **Spatial Attention Mechanism** for enhanced accuracy.
 - 🚀 **Optimized for UAV applications** with **low computational complexity** and high efficiency.
-- 📏 Supports **social distancing monitoring** by calculating distances between pedestrians in **real-world coordinates**.
+- 📏 Supports **social distancing monitoring** by calculating distances between pedestrians in **real-world coordinates [Link](https://colab.research.google.com/drive/167n0oObT18-MGclHa9Qybicnk-XUvR1D?usp=sharing)**.
 - 🎯 Includes **calibration functionality** for UAV imagery to accurately estimate **real-world distances**.
 
 # NanoDet Installation Guide 🚀
