@@ -26,25 +26,36 @@ This repository provides an **efficient solution** for pedestrian detection and 
    ```bash
    conda create -n nanodet python=3.8 -y
    conda activate nanodet
+   ```
    
 2. **Install PyTorch:**
 
 ```bash
-conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c conda-forge
+   conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c conda-forge
+```
 
-
-
-
-
+3. **Clone the NanoDet repository:**
+   ```bash
+   git clone https://github.com/RangiLyu/nanodet.git
+   cd nanodet
+   ```
+4. **Install required packages:***
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **Setup NanoDet:**
+   ```bash
+   python setup.py develop
+   ``` 
 
 ## 📂 Dataset
 This project uses two datasets for training and evaluation:
 
-1. **Manipal UAV Person Detection Dataset**  
+1. **[Manipal UAV Person Detection Dataset](https://www.sciencedirect.com/science/article/abs/pii/S0924271622003008?via%3Dihub)**  
    - 📸 **13,462 images** with **153,112 annotated pedestrians**
 
 2. **Custom UAV Dataset**  
-   - 📷 **1,200 images** captured at **10 and 14 meters** altitude using a **DJI Mini UAV**
+   - 📷 **1,019 images** captured at **10 and 14 meters** altitude using a **DJI Mini UAV**
 
 ## 🚀 How to Train
 
@@ -67,3 +78,4 @@ NanoDet now uses **PyTorch Lightning** for training. To start training, whether 
 
 ```bash
 python tools/train.py CONFIG_FILE_PATH
+```
