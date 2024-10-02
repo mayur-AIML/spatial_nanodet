@@ -24,8 +24,8 @@ This repository provides an **efficient solution** for pedestrian detection and 
 1. **Create and activate a conda environment:**
 
    ```bash
-   conda create -n nanodet python=3.8 -y
-   conda activate nanodet
+   conda create -n <env_nane> python=3.8 -y
+   conda activate <env_name>
    ```
    
 2. **Install PyTorch:**
@@ -36,7 +36,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
 
 3. **Clone the NanoDet repository:**
    ```bash
-   git clone https://github.com/RangiLyu/nanodet.git
+   git clone https://github.com/mt-project-cv/spatial_nanodet.git
    cd nanodet
    ```
 4. **Install required packages:***
