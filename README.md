@@ -77,5 +77,5 @@ This project uses two datasets for training and evaluation:
 NanoDet now uses **PyTorch Lightning** for training. To start training, whether using a single GPU or multiple GPUs, run the following command:
 
 ```bash
-python tools/train.py CONFIG_FILE_PATH
+python tools/train.py config/nanodet-plus-m_416-yolo.yml
 ```
