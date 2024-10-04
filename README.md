@@ -11,7 +11,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
 - 📏 Supports **social distancing monitoring** by calculating distances between pedestrians in **real-world coordinates [Link](https://colab.research.google.com/drive/167n0oObT18-MGclHa9Qybicnk-XUvR1D?usp=sharing)**.
 - 🎯 Includes **calibration functionality** for UAV imagery to accurately estimate **real-world distances**.
 
-# NanoDet Installation Guide 🚀
+# Real-time Pedestrian Deection Network Installation Guide 🚀
 
 ## Requirements 🛠️
 - **Linux** or **MacOS**
@@ -19,7 +19,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
 - **Python** >= 3.7
 - **PyTorch** >= 1.10.0, < 2.0.0
 
-## Steps to Install NanoDet 🐍
+## Steps to Install Real-time Pedestrian Detection Network 🐍
 
 1. **Create and activate a conda environment:**
 
@@ -34,7 +34,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
    conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 
-3. **Clone the NanoDet repository:**
+3. **Clone the repository:**
    ```bash
    git clone https://github.com/mt-project-cv/spatial_nanodet.git
    cd nanodet
@@ -43,7 +43,7 @@ This repository provides an **efficient solution** for pedestrian detection and 
    ```bash
    pip install -r requirements.txt
    ```
-5. **Setup NanoDet:**
+5. **Setup:**
    ```bash
    python setup.py develop
    ``` 
