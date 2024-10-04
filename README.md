@@ -3,7 +3,7 @@
 This repository contains the implementation of our lightweight pedestrian detection network designed for real-time social distancing monitoring using UAVs. The model uses ShuffleNet_V2 as the backbone and integrates a Spatial Attention Mechanism to enhance detection accuracy while maintaining computational efficiency
 
 ## Introduction
-This repository provides an **efficient solution** for pedestrian detection and social distancing monitoring using **UAV imagery**. It includes code for **training**, **evaluation**, and **visualization**, as well as instructions on using **pre-trained models** for inference. The system is designed to run on **lightweight hardware**, making it suitable for **UAV deployment**.
+This repository provides an **efficient solution** for pedestrian detection and social distancing monitoring using **UAV imagery**. It includes code for **training**, **evaluation**, and **visualization**, as well as instructions on using **pre-trained models** for inference. The system is designed to run on **lightweight hardware**, making it suitable for **UAV deployment**. Also, It is built on top of the **NanoDet-Plus** framework, which provides a lightweight and efficient object detection solution. We have extended NanoDet-Plus by integrating a **Spatial Attention Mechanism** and adapting it for real-time UAV-based applications. The original NanoDet-Plus repository can be found [here](https://github.com/RangiLyu/nanodet).
 
 ## ✨ Features
 - 🕵️‍♂️ **Real-time pedestrian detection** using **ShuffleNet_V2** and a **Spatial Attention Mechanism** for enhanced accuracy.
@@ -79,3 +79,13 @@ NanoDet now uses **PyTorch Lightning** for training. To start training, whether 
 ```bash
 python tools/train.py config/nanodet-plus-m_416-yolo.yml
 ```
+## Contributing
+Contributions are welcome! If you'd like to improve this project or fix any issues, feel free to:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Add feature'`).
+4. Push your branch (`git push origin feature-branch`).
+5. Open a pull request for review.
+
+If you're unsure about contributing, feel free to open an issue to discuss potential ideas or bugs.
